@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.container{
+    margin: auto;
+    height: 18vh;
+    background-color:  #0a499b; 
+}
+.logo{
+    width: 26%;
+    margin-left: 300px;
+    display: flex;
+}
+.logo img{
+    width: 35%;
+    margin-top: 10px;
+    display: flex;
+}
+.comment{
+    color: white;
+    margin: -120px 500px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: white;
+    font-size: 19px;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 5px;
+}
+h1{
+    font-size: 19px;
+}
+.content{
+    text-align: justify;
+    padding: 0 450px;
+    font-size: 1.3333333333333rem;
+    line-height: 1.5
+}
+p{
+    padding: 10px;
+}

@@ -1,0 +1,7 @@
+git init
+git status
+git add -A
+git status
+git commit -m ""
+git remote add origin link
+git push -u origin master

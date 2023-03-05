@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.container{
+    margin: auto;
+    height: 18vh;
+    background-color:  #0a499b; 
+}
+.logo{
+    width: 26%;
+    display: flex;
+    justify-content: right;
+}
+.logo img{
+    width: 35%;
+    margin-top: 10px;
+    display: flex;
+}
+.comment{
+    color: white;
+    margin: -120px 500px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 5px;
+}
+.content{
+    background-image: url(./img/h.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    margin-top: 6px;
+    position: relative;    
+}  
+.image{
+    position: absolute;
+    top: 15px;
+    left: 460px;
+    font-size: 18px;
+}
+.image i{
+    font-size: 4rem;
+    color: rgb(80, 71, 167);
+    
+}
+.ico{
+    box-shadow: 0px 0px 12px 2px #ffffff;
+    border: 3px ridge white;
+    padding: 25px 30px;
+
+}
+.image a{
+    display: flex;
+    flex-direction: column-reverse;
+    color: rgb(238, 36, 36);
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;   
+    transition: 0.5 all;
+}
+.image i:hover{
+    animation: heartbeat 2s infinite;
+}
+@keyframes heartbeat{
+    from{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.2);
+    }
+    20%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1.2);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.im{
+    position: absolute;
+    top: 15px;
+    right: 460px;
+    font-size: 18px;
+}
+.im a{
+    display: flex;
+    flex-direction: column-reverse;
+    color: rgb(238, 36, 36);
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;     
+}
+.im i{
+    font-size: 4rem;
+    color: rgb(80, 71, 167);
+
+   
+}
+.im i:hover{
+    animation: heartbeat 2s infinite;
+}
+@keyframes heartbeat{
+    from{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.2);
+    }
+    40%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1.2);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.c{
+    position: absolute;
+    top: 33%;
+    left: 46%;
+    font-size: 18px;
+    
+}
+.c a{
+    display: flex;
+    flex-direction: column-reverse;
+    color: rgb(238, 36, 36);
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;   
+}
+.c i{
+    font-size: 4rem;
+    color: rgb(80, 71, 167);
+}
+.c i:hover{
+    animation: heartbeat 2s infinite;
+}
+@keyframes heartbeat{
+    from{
+        transform: scale(1);
+    }
+    14%{
+        transform: scale(1.2);
+    }
+    28%{
+        transform: scale(1);
+    }
+    42%{
+        transform: scale(1.2);
+    }
+    70%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.ic{
+    position: absolute;
+    bottom: 8px;
+    left: 460px;
+    font-size: 18px;
+}
+.ic a{
+    display: flex;
+    flex-direction: column-reverse;
+    color: rgb(238, 36, 36);
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;   
+}
+.ic i{
+    font-size: 4rem;
+    color: rgb(80, 71, 167);
+}
+.ic i:hover{
+    animation: heartbeat 2s infinite;
+}
+@keyframes heartbeat{
+    from{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.2);
+    }
+    40%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1.2);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+.icon{
+    position: absolute;
+    bottom: 8px;
+    right: 460px;
+    font-size: 18px;
+
+}
+.icon i{
+    font-size: 4rem;
+    color: rgb(80, 71, 167);
+        
+}
+
+.icon a{
+    display: flex;
+    flex-direction: column-reverse;
+    color: rgb(238, 36, 36);
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;   
+}
+.icon i:hover{
+    animation: heartbeat 2s infinite;
+}
+@keyframes heartbeat{
+    from{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.2);
+    }
+    40%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1.2);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.box{
+    height: 13vh;
+    background-color:  #383a3b; 
+    display: flex;
+    justify-content: center;
+}
+.box h4{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: lighter;
+}
+@media (max-width: 1086px){
+    .container{
+        height: 14vh;
+    }
+    .logo{
+        width: 40%;
+        display: flex;
+        justify-content: left;  
+    }
+    a{
+       margin-left: -350px;
+    }
+    .ico{
+         box-shadow: 0px 0px 12px 2px #ffffff;
+         border: 3px ridge white;
+         padding: 10px 10px;   
+    }
+    
+    
+}
+

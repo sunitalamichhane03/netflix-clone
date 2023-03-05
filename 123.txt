@@ -1,0 +1,81 @@
+<header>
+
+    <section class="top-header">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-4 col-md-4 top-desti">
+
+            <ul>
+
+              <li><a href="https://www.gracefuladventure.com/nepal.html">Nepal</a></li>
+
+              <li><a href="https://www.gracefuladventure.com/tibet.html">Tibet</a></li>
+
+              <li><a href="https://www.gracefuladventure.com/bhutan.html">Bhutan</a></li>
+
+              <li><a href="https://www.gracefuladventure.com/multi-country.html">Multi-country</a></li>
+
+            </ul>
+
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-4 mid-header">
+
+            <p><i class="fa fa-mobile"></i> Viber/Whats App: <a href="mailto:+977 - 9851219412">+977 - 9851219412</a></p>
+
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-4 top-dates">
+
+            <ul>
+
+              <li><a href="https://www.gracefuladventure.com/blog.html">Blog</a></li>
+
+            <!--   <li><a href="#">Gallery</a></li> -->
+
+              <li><a href="https://www.gracefuladventure.com/company/testimonials.html">Testimonials</a></li>
+
+              <li><a href="https://www.gracefuladventure.com/contact-us.html">Contact</a></li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="menu">
+
+    <div class="container">
+
+      <div class="row">
+ 
+        <div class="col-xs-12">
+
+          <nav class="navbar navbar-inverse">
+ 
+              <div class="navbar-header">    
+
+                <a id="brand" href="https://www.gracefuladventure.com" class="navbar-brand">
+                  <img src="https://www.gracefuladventure.com/wp-content/themes/graceful/assets/images/logo1.png">
+                </a>
+ <a id="brand" href="https://www.gracefuladventure.com">
+                <div class="logo-text">
+
+                  <p>Graceful</p>
+
+                  <p><span class="text1">Adventure Travel</span></p>
+
+                  <p><span class="text2">Local Agent for Nepal, Tibet & Bhutan</span></p>
+
+                </div>
+ </a>
+              </div>
+
+              <div class="navbar-collapse" id="myNavbar">

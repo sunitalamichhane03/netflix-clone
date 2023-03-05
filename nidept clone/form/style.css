@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background:rgb(249, 248, 247);
+  height: 100vh;
+  overflow: hidden;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+ 
+}
+.center h1{
+  margin-top: 50px;
+    text-align: center;
+    display: block;
+    color: #34629a;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.center h2{
+    text-align: center;
+    display: block;
+    color: #34629a;
+    font-weight: lighter;  
+    font-size: 18px;
+}
+.center h3{
+    text-align: center;
+    display: block;
+    color: #34629a;
+    font-weight: bold;  
+    font-size: 18px;
+}
+.center h4{
+    text-align: center;
+    display: block;
+    color: #34629a;
+    font-weight: lighter;  
+    font-size: 18px;
+    padding: 0px;
+}
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+}
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size:16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.txt_field span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #3906e1;
+  transition: .5s;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -5px;
+  color: #1135d8;
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+  width: 100%;
+}
+
+.pass{
+  margin: -5px 0 20px 5px;
+  color: blue;
+  cursor: pointer;
+}
+.pass:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+input[type="submit"]{
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  background: blue;
+  border: 1px solid transparent;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+input[type="submit"]:hover{
+  border-color:rgb(5, 5, 118);
+  background: rgb(49, 49, 236);
+  transition: .5s;
+}
+.pass{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: blue;
+}
+.pass a{
+  color: rgb(16, 194, 243);
+
+  text-decoration: none;
+}
+.last{
+ margin-top: 10px;
+ margin-bottom: 10px;
+  color: #a6a6a6;
+  cursor: pointer;
+
+}
+.last input[type="submit"]{
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  background: #043b7e;
+  font-size: 18px;
+  font-weight: 700;
+ cursor: pointer;
+  outline: none;
+}
+.pass input[type="submit"]:hover{
+ background: blue;
+  transition: .5s;
+}
+.last{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+}
+.last a{
+  color: #0d4e9c;
+  text-decoration: none;
+}
+.last input[type="submit"]:hover{
+  background: #0653b2;
+   transition: .5s;
+ }
+ .last a:hover{
+  text-decoration: underline;
+  background: #044a91;
+}
